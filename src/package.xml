@@ -13,23 +13,6 @@
     </types>
     <types>
         <members>Student__c</members>
-        <members>DreamWorld</members>
-	<members>HelloWorld</members>
-        <name>ApexClass</name>
-    </types>
-    <types>
-        <members>Dream_World__c.Dream_World_Title__c</members>
-	<members>Hello__c.Hello__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
-        <members>Dream_World__c</members>
-	<members>Hello__c</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>Dream_World__c</members>
-	<members>Hello__c</members>
         <name>CustomTab</name>
     </types>
     <types>
