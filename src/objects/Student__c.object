@@ -691,9 +691,9 @@
     </nameField>
     <pluralLabel>Students</pluralLabel>
     <recordTypes>
-        <fullName>Registrar_Layout</fullName>
+        <fullName>Registrar</fullName>
         <active>true</active>
-        <label>Registrar Layout</label>
+        <label>Registrar</label>
         <picklistValues>
             <picklist>City__c</picklist>
             <values>
@@ -829,9 +829,9 @@
         </picklistValues>
     </recordTypes>
     <recordTypes>
-        <fullName>Teacher_Layout</fullName>
+        <fullName>Teacher</fullName>
         <active>true</active>
-        <label>Teacher Layout</label>
+        <label>Teacher</label>
         <picklistValues>
             <picklist>City__c</picklist>
             <values>
