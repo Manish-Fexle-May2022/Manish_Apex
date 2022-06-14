@@ -20,10 +20,5 @@
         <members>Student__c-Teacher Layout</members>
         <name>Layout</name>
     </types>
-    <types>
-        <members>Student__c.Registrar_LayouT</members>
-        <members>Student__c.Teacher_Layout</members>
-        <name>RecordType</name>
-    </types>
     <version>53.0</version>
 </Package>
