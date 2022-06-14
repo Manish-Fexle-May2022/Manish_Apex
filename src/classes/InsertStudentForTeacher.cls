@@ -38,6 +38,6 @@ public class InsertStudentForTeacher {
      student.X3nd_Sem_Percentage__c=89.85;
      student.X4th_Sem_Back__c=ture;
      student.X4th_Sem_Percentage__c=67;
-    system.debug('inserted record id:::'+ student.id );    
+     system.debug('inserted record id:::'+ student.id );    
     }
 }
