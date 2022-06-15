@@ -679,6 +679,18 @@
         <trackTrending>false</trackTrending>
         <type>Percent</type>
     </fields>
+	 <fields>
+        <fullName>Year_Of_Class__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Year Of Class</label>
+        <referenceTo>Year_Of_Class__c</referenceTo>
+        <relationshipLabel>Students</relationshipLabel>
+        <relationshipName>Students</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
     <label>Student</label>
     <listViews>
         <fullName>All</fullName>
