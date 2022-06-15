@@ -8,7 +8,6 @@
     </types>
     <types>
         <members>College__c</members>
-        <members>Contact</members>
         <members>Employee__c</members>
         <members>StudentSubject__c</members>
         <members>Subject__c</members>
