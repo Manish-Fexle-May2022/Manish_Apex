@@ -1,5 +1,5 @@
 public with sharing class ConstructorClass {
-        //Parameterized Constructor**********
+        // Non Parameterized Constructor**********
         
        String countryName;
        Integer countryPopulation;
@@ -10,7 +10,7 @@ public with sharing class ConstructorClass {
             System.debug(countryName);
             System.debug(countryPopulation);
        }
-   
+       //Parameterized Constructor**********
        //Constructor that takes a string argument and Integer argument
     public ConstructorClass(String countryName, Integer countryPopulation){
            this.countryName = countryName;
@@ -24,4 +24,4 @@ public with sharing class ConstructorClass {
            System.debug('Country Population: ' + countryPopulation);
        }
     }
-         // *******NON Parameterized Constructor**********
+   
