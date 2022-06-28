@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+<Package> xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
+		<members>ExpressionAndOperators</members>
+        <members>PracticeOperators</members>
+        <members>DataTypesAndMethods</members>
+        <members>ListOfProduct</members>
+        <members>MapOfProduct</members>
+        <members>SetOfProduct</members>
+        <members>StudentData</members>
 	    <members>PrintingPattern</members>
 	    <members>HelloWorldTestClass</members>
 	    <members>MyHelloWorld</members>
@@ -15,7 +22,7 @@
 	    <name>CustomTab</name>
 	</types>
 	<types>
-            <members>Book__c</members>
+        <members>Book__c</members>
 	    <name>CustomObject</name>
 	</types>
     <version>53.0</version>
