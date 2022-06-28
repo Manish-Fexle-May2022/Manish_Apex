@@ -13,7 +13,8 @@ public with sharing class PrintingPattern {
             System.debug(Pattern);
          }
    }    
- public void leftTrianglePascal(){
+   
+    public void leftTrianglePascal(){
     Integer k=0;
     for(Integer i=1;i<=9;i++)
     {
