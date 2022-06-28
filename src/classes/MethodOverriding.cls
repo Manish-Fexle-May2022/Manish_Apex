@@ -3,7 +3,7 @@ public virtual class MethodOverriding {
         private integer pvt;
         protected integer ptd;
         public integer pub;
-	    public virtual void getvalues (){
+	public virtual void getvalues (){
             system.debug ('Pvt Mem' +pvt);
             system.debug('ptd Mem' +ptd);
             system.debug ('pub mem'+ pub);
