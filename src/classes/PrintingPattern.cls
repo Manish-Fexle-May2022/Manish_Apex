@@ -12,25 +12,25 @@ public with sharing class PrintingPattern {
             }
             System.debug(Pattern);
          }
-   }    
+    }    
    
     public void leftTrianglePascal(){
-    Integer k=0;
-    for(Integer i=1;i<=9;i++)
-    {
-         if(i<=5)
-            k++;
-         else 
-            k--;
-         String Pattern1='';
-         for(Integer j=1;j<=5;j++)
-         {
-            if(j>=6-k)
-                Pattern1 = Pattern1 + '*';
-            else
-                Pattern1 = Pattern1 + '_';
+        Integer k=0;
+        for(Integer i=1;i<=9;i++)
+        {
+             if(i<=5)
+                k++;
+             else 
+                k--;
+             String Pattern1='';
+             for(Integer j=1;j<=5;j++)
+             {
+                if(j>=6-k)
+                    Pattern1 = Pattern1 + '*';
+                else
+                    Pattern1 = Pattern1 + '_';
+             }
+            System.debug(Pattern1);
          }
-        System.debug(Pattern1);
-     }
-  }
+    }
 }
