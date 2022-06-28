@@ -30,17 +30,17 @@ public with sharing class ControlFlow {
         } while (j< 1);   // iterate till 1st record only
     }
 		
-		//Description :   Control Flow While Loop
+	//Description :   Control Flow While Loop
 	public static void factorial(Integer value)
-    {
-        Integer count=2, result=2;
-        while(count<=value)
-        {
-            result=result*count;
-            count++;        
-        }
-        System.debug('factorial of given number is: '+result);
-    }
+    	{
+             Integer count=2, result=2;
+             while(count<=value)
+             {
+            	 result=result*count;
+            	 count++;        
+             }
+             System.debug('factorial of given number is: '+result);
+    	}
 	
        //Description :   Control flow using for-each loop
 	
