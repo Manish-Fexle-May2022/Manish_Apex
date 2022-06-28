@@ -3,7 +3,12 @@
     <types>
         <members>ExpressionAndOperators</members>
         <members>PracticeOperators</members>
+        <members>DataTypesAndMethods</members>
+        <members>ListOfProduct</members>
+        <members>MapOfProduct</members>
+        <members>SetOfProduct</members>
+        <members>StudentData</members>
         <name>ApexClass</name>
     </types>
-    <version>53.0</version>
+    <version>53.0</version
 </Package>
