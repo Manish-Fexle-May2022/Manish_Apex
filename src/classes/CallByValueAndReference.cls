@@ -11,6 +11,7 @@ public with sharing class CallByValueAndReference {
         //Create New Object and try to replace old
         b = new Account();
         b.Website = 'www.salesforce.com';
+        System.sebug = ('Website = '+b.Website);
         return b;
     }
 }
