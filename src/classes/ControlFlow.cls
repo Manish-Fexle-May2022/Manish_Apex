@@ -30,8 +30,8 @@ public with sharing class ControlFlow {
         } while (j< 1);   // iterate till 1st record only
     }
 		
-	//Description :   Control Flow While Loop
-	public static void factorial(Integer value)
+    //Description :   Control Flow While Loop
+    public static void factorial(Integer value)
     	{
              Integer count=2, result=2;
              while(count<=value)
@@ -42,9 +42,8 @@ public with sharing class ControlFlow {
              System.debug('factorial of given number is: '+result);
     	}
 	
-       //Description :   Control flow using for-each loop
-	
-	public static void methodforeach(){
+    //Description :   Control flow using for-each loop	
+    public static void methodforeach(){
         List<Account> accList = [SELECT Id,Name From Account LIMIT 20];
         for(Account acc : accList){
             system.debug('##'+acc);
