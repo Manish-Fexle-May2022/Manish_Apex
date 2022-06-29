@@ -32,15 +32,15 @@ public with sharing class ControlFlow {
 		
     //Description :   Control Flow While Loop
     public static void factorial(Integer value)
-    	{
-             Integer count=2, result=2;
-             while(count<=value)
-             {
-            	 result=result*count;
-            	 count++;        
-             }
-             System.debug('factorial of given number is: '+result);
-    	}
+    {
+        Integer count=2, result=2;
+        while(count<=value)
+        {
+             result=result*count;
+             count++;        
+        }
+         System.debug('factorial of given number is: '+result);
+     }
 	
     //Description :   Control flow using for-each loop	
     public static void methodforeach(){
