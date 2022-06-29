@@ -7,14 +7,6 @@
        <members>ControlFlow</members>
        <members>ControlFlowStatement</members>
        <members>MethodOverloading</members>
-       <members>MethodOverriding</members>
-       <members>PracticeOperators</members>
-       <members>DataTypesAndMethods</members>
-       <members>ListOfProduct</members>
-       <members>MapOfProduct</members>
-       <members>SetOfProduct</members>
-       <members>StudentData</members>
-       <members>ExpressionAndOperators</members>
        <members>PracticeOperators</members>
        <members>DataTypesAndMethods</members>
        <members>ListOfProduct</members>
