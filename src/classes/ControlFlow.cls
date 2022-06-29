@@ -40,7 +40,7 @@ public with sharing class ControlFlow {
              count++;        
         }
          System.debug('factorial of given number is: '+result);
-     }
+    }
 	
     //Description :   Control flow using for-each loop	
     public static void methodforeach(){
